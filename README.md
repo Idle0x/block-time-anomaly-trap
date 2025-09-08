@@ -1,10 +1,10 @@
 # Block Time Anomaly Detector
 
-A novel infrastructure-level security trap for Drosera Network
+A novel infrastructure level security trap for Drosera Network
 
 ## Overview
 
-The Block Time Anomaly Detector is the first Drosera trap to monitor blockchain infrastructure health at the consensus layer. While other traps focus on application-specific threats, this trap detects network-wide issues that could affect all protocols and users.
+The Block Time Anomaly Detector is the first Drosera trap to monitor blockchain infrastructure health at the consensus layer. While other traps focus on application specific threats, this trap detects network-wide issues that could affect all protocols and users.
 
 **Deployed Contracts:**
 - **Trap Contract:** `0x499684111e2edeec86e8f9007bd3de66c7c0f854`
@@ -54,7 +54,7 @@ flowchart TD
     style K fill:#f5f5f5,stroke:#424242,stroke-width:2px
 ```
 
-### Multi-Pattern Detection Logic
+### Multi Pattern Detection Logic
 
 The trap analyzes **consecutive block sequences** to identify four distinct anomaly patterns:
 
@@ -63,8 +63,8 @@ The trap analyzes **consecutive block sequences** to identify four distinct anom
 - **Variance Analysis**: Swings > 25 seconds between consecutive intervals reveal instability
 - **Stalling Detection**: Multiple blocks > 36 seconds signal critical network failures
 
-Unlike simple threshold monitoring, this **multi-pattern approach** provides:
-- **Context-aware analysis** across 3+ consecutive blocks
+Unlike simple threshold monitoring, this **multi pattern approach** provides:
+- **Context aware analysis** across 3+ consecutive blocks
 - **Reduced false positives** through pattern-based validation
 - **Comprehensive coverage** of both sudden shocks and gradual degradation
 
@@ -178,9 +178,9 @@ cast call 0x93a0a66E12dB8278e21c5f59295d43c535093cF6 "isNetworkHealthy()" --rpc-
 ## Why This Trap is Unique
 
 ### Novel Approach
-- **First infrastructure-level monitoring**: All other traps monitor applications; this monitors the blockchain itself
+- **Infrastructure level monitoring**: Unlike other traps that only monitor applications deployed by protocols; this monitors the blockchain itself
 - **Consensus layer security**: Detects issues that could affect the entire network
-- **Multi-pattern analysis**: Sophisticated timing analysis beyond simple thresholds
+- **Multi pattern analysis**: Sophisticated timing analysis beyond simple thresholds
 
 ### Technical Excellence
 - **Zero dependencies**: Works on any blockchain without external contracts
@@ -223,19 +223,15 @@ block-time-anomaly-trap/
 
 ## Contributing
 
-This project demonstrates infrastructure-level blockchain security monitoring. Feel free to:
+This project demonstrates infrastructure level blockchain security monitoring. Feel free to:
 
 - Fork and improve the detection algorithms
 - Add new anomaly patterns
 - Suggest threshold optimizations
 - Report issues or bugs
 
-## License
-
-MIT License - see LICENSE file for details.
-
 ---
 - **Author**: idle0x
 - **Network**: Hoodi Testnet (Chain ID: 560048)
 - **Status**: Deployed and Active
-- **Category**: Infrastructure Security / Network Health Monitoring
+- **Category**: Network Health Monitoring
