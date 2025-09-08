@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+/lib
+# testing and development
+/cache
+/artifacts
+# environment files
+.env
+.env.*
+# OS-specific files
+.DS_Store
+Thumbs.db
+# project-specific build files
+build/
+# Foundry
+out/
+broadcast/
+# Logs
+*.log
+# Private keys (NEVER commit these)
+*.key
+private_key*
+# Temporary files
+*.tmp
+*.temp

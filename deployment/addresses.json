@@ -1,0 +1,13 @@
+{
+  "network": "Hoodi Testnet",
+  "chainId": 560048,
+  "deploymentDate": "TBD",
+  "contracts": {
+    "BlockAnomalyResponse": "0x93a0a66E12dB8278e21c5f59295d43c535093cF6",
+    "BlockTimeAnomalyTrap": "0x499684111e2edeec86e8f9007bd3de66c7c0f854"
+  },
+  "links": {
+    "responseContract": "https://hoodi.etherscan.io/address/0x93a0a66E12dB8278e21c5f59295d43c535093cF6",
+    "trapContract": "https://hoodi.etherscan.io/address/0x499684111e2edeec86e8f9007bd3de66c7c0f854"
+  }
+}
