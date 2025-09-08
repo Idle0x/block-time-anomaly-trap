@@ -230,10 +230,6 @@ This project demonstrates infrastructure level blockchain security monitoring. F
 - Suggest threshold optimizations
 - Report issues or bugs
 
-## License
-
-MIT License - see LICENSE file for details.
-
 ---
 - **Author**: idle0x
 - **Network**: Hoodi Testnet (Chain ID: 560048)
